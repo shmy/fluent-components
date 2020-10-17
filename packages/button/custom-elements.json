@@ -1,0 +1,31 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "ft-button",
+      "path": "./src/index.ts",
+      "attributes": [
+        {
+          "name": "type",
+          "type": "Ty"
+        }
+      ],
+      "properties": [
+        {
+          "name": "styles",
+          "type": "CSSResult",
+          "default": "\"css`\\n    :host {\\n      display: inline-block;\\n      \\n    }\\n    .button {\\n      border: 1px solid rgb(138, 136, 134);\\n      display: inline-block;\\n      text-align: center;\\n      cursor: pointer;\\n      padding: 0px 16px;\\n      border-radius: 2px;\\n      min-width: 80px;\\n      height: 32px;\\n      background-color: rgb(255, 255, 255);\\n      color: red;\\n      user-select: none;\\n    }\\n    .button.primary {\\n      border: 1px solid rgb(0, 120, 212);\\n      background-color: blue;\\n      color: white;\\n    }\\n  `\""
+        },
+        {
+          "name": "type",
+          "attribute": "type",
+          "type": "Ty"
+        },
+        {
+          "name": "classes",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

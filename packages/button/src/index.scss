@@ -1,0 +1,22 @@
+@import "../../variable";
+:host {
+    display: inline-block;
+}
+.button {
+    border: 1px solid $secondColor;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    padding: 0 16px;
+    border-radius: 2px;
+    min-width: 80px;
+    height: 32px;
+    background-color: $secondColor;
+    color: $blackColor;
+    user-select: none;
+    &.primary {
+        border: 1px solid $primaryColor;
+        background-color: $primaryColor;
+        color: $whiteColor;
+    }
+}
